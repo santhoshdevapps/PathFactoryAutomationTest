@@ -4,9 +4,9 @@ public class Constants {
 	public static final String DRIVER_CHROME = "webdriver.chrome.driver";
 	public static final String DRIVER_FIREFOX = "webdriver.gecko.driver";
 	public static final String DRIVER_EDGE = "webdriver.edge.driver";
-	public static final String DRIVER_LAUNCHER_PATH_CHROME = "/Users/santhoshdamodharan/Documents/Automation/chromedriver";
-	public static final String DRIVER_LAUNCHER_PATH_FIREFOX = "/Users/santhoshdamodharan/Documents/Automation/geckodriver";
-	public static final String DRIVER_LAUNCHER_PATH_EDGE = "/Users/santhoshdamodharan/Documents/Automation/msedgedriver";
+	public static final String DRIVER_LAUNCHER_PATH_CHROME = "/Users/santhoshdamodharan/Documents/workspace/PathFactory/src/main/java/com/qa/resource/chromedriver";
+	public static final String DRIVER_LAUNCHER_PATH_FIREFOX = "/Users/santhoshdamodharan/Documents/workspace/PathFactory/src/main/java/com/qa/resource/geckodriver";
+	public static final String DRIVER_LAUNCHER_PATH_EDGE = "/Users/santhoshdamodharan/Documents/workspace/PathFactory/src/main/java/com/qa/resource/msedgedriver";
 	public static final int IMPLICIT_WAIT = 30;
 	public static final int PAGE_LOAD_TIMEOUT = 50;
 	public static final String URL = "http://automationpractice.com/index.php";
