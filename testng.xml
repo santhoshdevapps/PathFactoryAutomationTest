@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="none">
+	<listeners>
+	       <listener class-name="com.qa.utils.TestListener"/>
+	  </listeners>
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.testcases.SignupPageTest" />
+			<class name="com.qa.testcases.LoginPageTest" />
+			<class name="com.qa.testcases.ForgetPasswordPageTest" />
+		</classes>
+	</test>
+	<!-- <test name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.qa.testcases.SignupPageTest" />
+			<class name="com.qa.testcases.LoginPageTest" />
+		</classes>
+	</test> -->
+
+	<!-- <test name="IETest">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.qa.testcases.SignupPageTest" />
+			<class name="com.qa.testcases.LoginPageTest" />
+		</classes>
+	</test>
+	<test name="EdgeTest">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="com.qa.testcases.SignupPageTest" />
+			<class name="com.qa.testcases.LoginPageTest" />
+		</classes>
+	</test>
+
+
+	<test name="MobileTest - ios">
+		<parameter name="browser" value="ios" />
+		<classes>
+			<class name="com.qa.testcases.SignupPageTest" />
+			<class name="com.qa.testcases.LoginPageTest" />
+
+		</classes>
+	</test>
+
+	<test name="MobileTest - Android">
+		<parameter name="browser" value="Android" />
+		<classes>
+			<class name="com.qa.testcases.SignupPageTest" />
+			<class name="com.qa.testcases.LoginPageTest" />
+
+		</classes>
+	</test> -->
+
+</suite>
