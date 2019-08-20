@@ -1,0 +1,81 @@
+2019-08-20 00:09:16,715 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:16,716 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:16,716 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 New Test Case Started       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-08-20 00:09:16,716 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:16,716 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:19,978 INFO  [Log] Chrome driver is created 
+2019-08-20 00:09:24,735 INFO  [Log] website is launched 
+2019-08-20 00:09:24,757 INFO  [Log] returns the driver 
+2019-08-20 00:09:24,757 INFO  [Log] returns the wait time 
+2019-08-20 00:09:24,765 INFO  [Log] Initializing web drivers 
+2019-08-20 00:09:24,767 INFO  [Log] Initializing web drivers 
+2019-08-20 00:09:24,769 INFO  [Log] Clicking the sign in button 
+2019-08-20 00:09:27,093 INFO  [Log] Reading the excel sheet signup 
+2019-08-20 00:09:28,206 INFO  [Log] Create account 
+2019-08-20 00:09:28,206 INFO  [Log] Set the email in the input box 
+2019-08-20 00:09:28,591 INFO  [Log] Clicking the create account button 
+2019-08-20 00:09:28,730 INFO  [Log] Sign up method 
+2019-08-20 00:09:28,730 INFO  [Log] Check for salutation (Mr or Mrs) 
+2019-08-20 00:09:58,829 INFO  [Log] The name of the testcase failed is :signUpScreenTestcase 
+2019-08-20 00:09:58,830 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:09:59,262 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:59,262 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:59,262 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test Case Ended       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-08-20 00:09:59,262 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:59,263 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:59,378 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:59,378 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:59,378 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 New Test Case Started       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-08-20 00:09:59,378 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:09:59,378 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:10:00,900 INFO  [Log] Chrome driver is created 
+2019-08-20 00:10:07,955 INFO  [Log] website is launched 
+2019-08-20 00:10:07,957 INFO  [Log] returns the driver 
+2019-08-20 00:10:07,957 INFO  [Log] returns the wait time 
+2019-08-20 00:10:07,957 INFO  [Log] Initializing web drivers 
+2019-08-20 00:10:07,957 INFO  [Log] Initializing web drivers 
+2019-08-20 00:10:07,957 INFO  [Log] Clicking the sign in button 
+2019-08-20 00:10:07,967 INFO  [Log] The name of the testcase skipped is :validateLoginPageTitle 
+2019-08-20 00:10:07,967 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:07,985 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:10:07,985 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:10:07,985 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 New Test Case Started       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-08-20 00:10:07,985 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:10:07,985 INFO  [Log] **************************************************************************************** 
+2019-08-20 00:10:09,587 INFO  [Log] Chrome driver is created 
+2019-08-20 00:10:16,135 INFO  [Log] website is launched 
+2019-08-20 00:10:16,135 INFO  [Log] returns the driver 
+2019-08-20 00:10:16,135 INFO  [Log] returns the wait time 
+2019-08-20 00:10:16,135 INFO  [Log] Initializing web drivers 
+2019-08-20 00:10:16,135 INFO  [Log] Initializing web drivers 
+2019-08-20 00:10:16,137 INFO  [Log] Initializing web drivers 
+2019-08-20 00:10:16,137 INFO  [Log] Clicking the sign in button 
+2019-08-20 00:10:16,440 INFO  [Log] Clicking the Forgot password link 
+2019-08-20 00:10:16,557 INFO  [Log] The name of the testcase skipped is :redirectedToForgotPasswordPage 
+2019-08-20 00:10:16,558 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:16,682 INFO  [Log] The name of the testcase skipped is :logoImageTest 
+2019-08-20 00:10:16,682 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:16,740 INFO  [Log] The name of the testcase skipped is :unregisteredUsername 
+2019-08-20 00:10:16,740 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:16,789 INFO  [Log] The name of the testcase skipped is :validCredentials 
+2019-08-20 00:10:16,790 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:16,844 INFO  [Log] The name of the testcase skipped is :invalidUsername 
+2019-08-20 00:10:16,844 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:16,879 INFO  [Log] The name of the testcase skipped is :emptyCredentials 
+2019-08-20 00:10:16,880 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:16,925 INFO  [Log] The name of the testcase skipped is :emptyUsername 
+2019-08-20 00:10:16,925 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:16,970 INFO  [Log] The name of the testcase skipped is :emptyUsername 
+2019-08-20 00:10:16,970 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:17,005 INFO  [Log] The name of the testcase skipped is :emptyPassword 
+2019-08-20 00:10:17,005 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:17,057 INFO  [Log] The name of the testcase skipped is :unregisteredUsername 
+2019-08-20 00:10:17,057 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:17,116 INFO  [Log] The name of the testcase skipped is :invalidPassword 
+2019-08-20 00:10:17,116 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:17,164 INFO  [Log] The name of the testcase skipped is :invalidUsername 
+2019-08-20 00:10:17,164 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:17,213 INFO  [Log] The name of the testcase skipped is :isPasswordVisible 
+2019-08-20 00:10:17,213 INFO  [Log] Capturing the screenshot 
+2019-08-20 00:10:17,252 INFO  [Log] The name of the testcase skipped is :isEnterKeyAllowed 
+2019-08-20 00:10:17,252 INFO  [Log] Capturing the screenshot 
