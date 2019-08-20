@@ -41,7 +41,7 @@ public class TestListener implements ITestListener {
 
 	public void onTestSkipped(ITestResult status) {
 		Log.info("The name of the testcase skipped is :"+status.getName());
-		captureScreenShot(status, "SKIP");
+		//captureScreenShot(status, "SKIP");
 		
 	}
 

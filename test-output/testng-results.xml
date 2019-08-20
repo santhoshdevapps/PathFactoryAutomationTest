@@ -1,281 +1,321 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="0" ignored="16" total="19" passed="0">
+<testng-results skipped="0" failed="0" ignored="16" total="32" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="86" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
+  <suite name="TestSuite" duration-ms="221451" started-at="2019-08-20T04:54:53Z" finished-at="2019-08-20T04:58:34Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="86" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
-      <class name="com.qa.testcases.SignupPageTest">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.SignupPageTest@49993335]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="signUpScreenTestcase()[pri:1, instance:com.qa.testcases.SignupPageTest@49993335]" name="signUpScreenTestcase" duration-ms="0" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUpScreenTestcase -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.SignupPageTest@49993335]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.testcases.SignupPageTest -->
+    <test name="ChromeTest" duration-ms="221451" started-at="2019-08-20T04:54:53Z" finished-at="2019-08-20T04:58:34Z">
       <class name="com.qa.testcases.ForgetPasswordPageTest">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.ForgetPasswordPageTest@5025a98f]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="setUp" is-config="true" duration-ms="8006" started-at="2019-08-20T00:55:20Z" finished-at="2019-08-20T00:55:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="redirectedToForgotPasswordPage()[pri:1, instance:com.qa.testcases.ForgetPasswordPageTest@5025a98f]" name="redirectedToForgotPasswordPage" duration-ms="0" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="redirectedToForgotPasswordPage()[pri:1, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="redirectedToForgotPasswordPage" duration-ms="722" started-at="2019-08-20T00:55:28Z" finished-at="2019-08-20T00:55:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- redirectedToForgotPasswordPage -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.ForgetPasswordPageTest@5025a98f]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="104" started-at="2019-08-20T00:55:30Z" finished-at="2019-08-20T00:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="setUp" is-config="true" duration-ms="11293" started-at="2019-08-20T00:55:37Z" finished-at="2019-08-20T00:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="unregisteredUsername()[pri:2, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="unregisteredUsername" duration-ms="1057" started-at="2019-08-20T00:55:48Z" finished-at="2019-08-20T00:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unregisteredUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="104" started-at="2019-08-20T00:55:49Z" finished-at="2019-08-20T00:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="setUp" is-config="true" duration-ms="5761" started-at="2019-08-20T00:56:00Z" finished-at="2019-08-20T00:56:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidUsername()[pri:3, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="invalidUsername" duration-ms="967" started-at="2019-08-20T00:56:06Z" finished-at="2019-08-20T00:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="145" started-at="2019-08-20T00:56:07Z" finished-at="2019-08-20T00:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="setUp" is-config="true" duration-ms="6337" started-at="2019-08-20T00:56:24Z" finished-at="2019-08-20T00:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emptyUsername()[pri:5, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="emptyUsername" duration-ms="2967" started-at="2019-08-20T00:56:31Z" finished-at="2019-08-20T00:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.ForgetPasswordPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="166" started-at="2019-08-20T00:56:34Z" finished-at="2019-08-20T00:56:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.testcases.ForgetPasswordPageTest -->
-      <class name="com.qa.testcases.LoginPageTest">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@2d928643]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+      <class name="com.qa.testcases.SignupPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.SignupPageTest@5700d6b1]" name="setUp" is-config="true" duration-ms="9325" started-at="2019-08-20T00:54:53Z" finished-at="2019-08-20T00:55:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validateLoginPageTitle()[pri:1, instance:com.qa.testcases.LoginPageTest@2d928643]" name="validateLoginPageTitle" duration-ms="0" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/santhoshdamodharan/Documents/workspace/PathFactory/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="signUpScreenTestcase()[pri:1, instance:com.qa.testcases.SignupPageTest@5700d6b1]" name="signUpScreenTestcase" duration-ms="10905" started-at="2019-08-20T00:55:02Z" finished-at="2019-08-20T00:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpScreenTestcase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.SignupPageTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="114" started-at="2019-08-20T00:55:14Z" finished-at="2019-08-20T00:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.SignupPageTest -->
+      <class name="com.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="6261" started-at="2019-08-20T00:55:14Z" finished-at="2019-08-20T00:55:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginPageTitle()[pri:1, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="validateLoginPageTitle" duration-ms="11" started-at="2019-08-20T00:55:20Z" finished-at="2019-08-20T00:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginPageTitle -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@2d928643]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T02:47:11Z" finished-at="2019-08-20T02:47:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="122" started-at="2019-08-20T00:55:20Z" finished-at="2019-08-20T00:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="6566" started-at="2019-08-20T00:55:30Z" finished-at="2019-08-20T00:55:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logoImageTest()[pri:2, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="logoImageTest" duration-ms="82" started-at="2019-08-20T00:55:36Z" finished-at="2019-08-20T00:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoImageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="100" started-at="2019-08-20T00:55:37Z" finished-at="2019-08-20T00:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="7612" started-at="2019-08-20T00:55:50Z" finished-at="2019-08-20T00:55:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredentials()[pri:3, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="validCredentials" duration-ms="2634" started-at="2019-08-20T00:55:57Z" finished-at="2019-08-20T00:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="106" started-at="2019-08-20T00:56:00Z" finished-at="2019-08-20T00:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="6420" started-at="2019-08-20T00:56:07Z" finished-at="2019-08-20T00:56:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emptyCredentials()[pri:4, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="emptyCredentials" duration-ms="1047" started-at="2019-08-20T00:56:14Z" finished-at="2019-08-20T00:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="142" started-at="2019-08-20T00:56:15Z" finished-at="2019-08-20T00:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="6383" started-at="2019-08-20T00:56:15Z" finished-at="2019-08-20T00:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emptyUsername()[pri:5, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="emptyUsername" duration-ms="2110" started-at="2019-08-20T00:56:22Z" finished-at="2019-08-20T00:56:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="158" started-at="2019-08-20T00:56:24Z" finished-at="2019-08-20T00:56:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="9883" started-at="2019-08-20T00:56:34Z" finished-at="2019-08-20T00:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emptyPassword()[pri:6, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="emptyPassword" duration-ms="2015" started-at="2019-08-20T00:56:44Z" finished-at="2019-08-20T00:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="98" started-at="2019-08-20T00:56:46Z" finished-at="2019-08-20T00:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="24172" started-at="2019-08-20T00:56:46Z" finished-at="2019-08-20T00:57:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="unregisteredUsername()[pri:7, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="unregisteredUsername" duration-ms="1243" started-at="2019-08-20T00:57:11Z" finished-at="2019-08-20T00:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unregisteredUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="142" started-at="2019-08-20T00:57:12Z" finished-at="2019-08-20T00:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="23810" started-at="2019-08-20T00:57:12Z" finished-at="2019-08-20T00:57:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidPassword()[pri:8, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="invalidPassword" duration-ms="1318" started-at="2019-08-20T00:57:36Z" finished-at="2019-08-20T00:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="96" started-at="2019-08-20T00:57:38Z" finished-at="2019-08-20T00:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="14660" started-at="2019-08-20T00:57:38Z" finished-at="2019-08-20T00:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidUsername()[pri:9, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="invalidUsername" duration-ms="1246" started-at="2019-08-20T00:57:52Z" finished-at="2019-08-20T00:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="112" started-at="2019-08-20T00:57:54Z" finished-at="2019-08-20T00:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="25091" started-at="2019-08-20T00:57:54Z" finished-at="2019-08-20T00:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isPasswordVisible()[pri:10, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="isPasswordVisible" duration-ms="74" started-at="2019-08-20T00:58:19Z" finished-at="2019-08-20T00:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPasswordVisible -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="98" started-at="2019-08-20T00:58:20Z" finished-at="2019-08-20T00:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="11731" started-at="2019-08-20T00:58:20Z" finished-at="2019-08-20T00:58:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isEnterKeyAllowed()[pri:11, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="isEnterKeyAllowed" duration-ms="2322" started-at="2019-08-20T00:58:32Z" finished-at="2019-08-20T00:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isEnterKeyAllowed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="104" started-at="2019-08-20T00:58:34Z" finished-at="2019-08-20T00:58:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.testcases.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
 </testng-results>

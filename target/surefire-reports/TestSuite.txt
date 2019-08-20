@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 2, Errors: 0, Skipped: 26, Time elapsed: 156.615 s <<< FAILURE! - in TestSuite
+setUp(com.qa.testcases.LoginPageTest)  Time elapsed: 67.496 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'santhoshs-MacBook-Air.local', ip: 'fd00:c47:3da2:9f12:683c:cc45:6298:90ca', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abaa6ed31ec86e23a80e0d7e40500229
+	at com.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:53)
+
+setUp(com.qa.testcases.ForgetPasswordPageTest)  Time elapsed: 52.768 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//a[@class='login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'santhoshs-MacBook-Air.local', ip: 'fd00:c47:3da2:9f12:683c:cc45:6298:90ca', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver
+	at com.qa.testcases.ForgetPasswordPageTest.setUp(ForgetPasswordPageTest.java:55)
+
