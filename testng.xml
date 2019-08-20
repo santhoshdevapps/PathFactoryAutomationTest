@@ -4,7 +4,7 @@
 	<listeners>
 	       <listener class-name="com.qa.utils.TestListener"/>
 	  </listeners>
-	<test name="ChromeTest">
+	<test name="ChromeTest" preserve-order="true">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.testcases.SignupPageTest" />

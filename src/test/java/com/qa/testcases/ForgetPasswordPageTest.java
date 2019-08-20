@@ -1,5 +1,17 @@
 package com.qa.testcases;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
@@ -52,7 +64,7 @@ public class ForgetPasswordPageTest extends TestBase{
 		driver.navigate().back();
 		loginPage.clickForgetPasswordLink();
 		String expectedUrl = driver.getCurrentUrl();
-		Assert.assertEquals(expectedUrl, "http://automationpractice.com/index.php?controller=password");
+		AssertJUnit.assertEquals(expectedUrl, "http://automationpractice.com/index.php?controller=password");
 	}
 
 	/**
@@ -65,7 +77,7 @@ public class ForgetPasswordPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		forgotPasswordPage.getForgetPassword(testcaseName);
 	    String errorText = forgotPasswordPage.getErrorText();
-	    Assert.assertEquals(errorText, "There is no account registered for this email address.");
+	    AssertJUnit.assertEquals(errorText, "There is no account registered for this email address.");
 	}
 
 	/**
@@ -78,7 +90,7 @@ public class ForgetPasswordPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		forgotPasswordPage.getForgetPassword(testcaseName);
 	    String errorText = forgotPasswordPage.getErrorText();
-	    Assert.assertEquals(errorText, "Invalid email address.");
+	    AssertJUnit.assertEquals(errorText, "Invalid email address.");
 	}
 
 	/**
@@ -92,7 +104,7 @@ public class ForgetPasswordPageTest extends TestBase{
 		forgotPasswordPage.getForgetPassword(testcaseName);
 		String username = forgotPasswordPage.getUsername(testcaseName);
 	    String successText = forgotPasswordPage.getSuccessText();
-	    Assert.assertEquals(successText, "A confirmation email has been sent to your address: "+username);
+	    AssertJUnit.assertEquals(successText, "A confirmation email has been sent to your address: "+username);
 	}
 
 	/**
@@ -105,7 +117,7 @@ public class ForgetPasswordPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		forgotPasswordPage.getForgetPassword(testcaseName);
 	    String errorText = forgotPasswordPage.getErrorText();
-	    Assert.assertEquals(errorText, "Invalid email address.");
+	    AssertJUnit.assertEquals(errorText, "Invalid email address.");
 	}
 
 	// Below testcase will be implemented in future  

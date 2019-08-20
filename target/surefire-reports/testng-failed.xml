@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.qa.utils.TestListener"/>
+  </listeners>
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="emptyPassword"/>
+          <include name="tearDown"/>
+          <include name="unregisteredUsername"/>
+          <include name="setUp"/>
+          <include name="isEnterKeyAllowed"/>
+          <include name="invalidPassword"/>
+          <include name="isPasswordVisible"/>
+          <include name="invalidUsername"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

@@ -1,5 +1,17 @@
 package com.qa.testcases;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
@@ -49,7 +61,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=1)
 	public void validateLoginPageTitle(){
 	    String title = loginPage.validateLoginPageTitle();
-	    Assert.assertEquals(title, "Login - My Store");
+	    AssertJUnit.assertEquals(title, "Login - My Store");
 	}
 	
 	/**
@@ -58,7 +70,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=2)
 	public void logoImageTest(){
 	    boolean flag = loginPage.verifyLogo();
-	    Assert.assertTrue(flag);
+	    AssertJUnit.assertTrue(flag);
 	}
 
 
@@ -73,7 +85,7 @@ public class LoginPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		loginPage.login(testcaseName);
 		String expectedUrl = driver.getCurrentUrl();
-		Assert.assertEquals(expectedUrl, "http://automationpractice.com/index.php?controller=my-account");
+		AssertJUnit.assertEquals(expectedUrl, "http://automationpractice.com/index.php?controller=my-account");
 	}
 
 	/**
@@ -87,7 +99,7 @@ public class LoginPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		loginPage.login(testcaseName);
 	    String errorText = loginPage.getErrorText();
-	    Assert.assertEquals(errorText, "An email address required.");
+	    AssertJUnit.assertEquals(errorText, "An email address required.");
 	}
 
 	/**
@@ -101,7 +113,7 @@ public class LoginPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		loginPage.login(testcaseName);
 	    String errorText = loginPage.getErrorText();
-	    Assert.assertEquals(errorText, "An email address required.");
+	    AssertJUnit.assertEquals(errorText, "An email address required.");
 	}
 
 	/**
@@ -115,7 +127,7 @@ public class LoginPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		loginPage.login(testcaseName);
 	    String errorText = loginPage.getErrorText();
-	    Assert.assertEquals(errorText, "Password is required.");
+	    AssertJUnit.assertEquals(errorText, "Password is required.");
 	}
 
 	/**
@@ -129,7 +141,7 @@ public class LoginPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		loginPage.login(testcaseName);
 	    String errorText = loginPage.getErrorText();
-	    Assert.assertEquals(errorText, "Authentication failed.");
+	    AssertJUnit.assertEquals(errorText, "Authentication failed.");
 	}
 
 	/**
@@ -143,7 +155,7 @@ public class LoginPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		loginPage.login(testcaseName);
 	    String errorText = loginPage.getErrorText();
-	    Assert.assertEquals(errorText, "Authentication failed.");
+	    AssertJUnit.assertEquals(errorText, "Authentication failed.");
 	}
 
 	/**
@@ -157,7 +169,7 @@ public class LoginPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		loginPage.login(testcaseName);
 	    String errorText = loginPage.getErrorText();
-	    Assert.assertEquals(errorText, "Invalid email address.");
+	    AssertJUnit.assertEquals(errorText, "Invalid email address.");
 	}
 
 	/**
@@ -166,7 +178,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=10)
 	public void isPasswordVisible(){
 		String type =  loginPage.verifyPasswordVisibility(); 
-		 Assert.assertEquals(type, "password");
+		 AssertJUnit.assertEquals(type, "password");
 	}
 	
 	/**
@@ -178,7 +190,7 @@ public class LoginPageTest extends TestBase{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		loginPage.loginUsingEnterKey(testcaseName);
 		String expectedUrl = driver.getCurrentUrl();
-		Assert.assertEquals(expectedUrl, "http://automationpractice.com/index.php?controller=my-account"); 
+		AssertJUnit.assertEquals(expectedUrl, "http://automationpractice.com/index.php?controller=my-account"); 
 	}
 	
 	// Below testcase will be implemented in future  
@@ -202,7 +214,7 @@ public class LoginPageTest extends TestBase{
 	public void passwordLength(String username, String password){
 	    loginPage.login(username, password);
 	    String errorText = loginPage.getErrorText();
-	    Assert.assertEquals(errorText, "Invalid password.");
+	    AssertJUnit.assertEquals(errorText, "Invalid password.");
 	}
 
 	/**
@@ -214,7 +226,7 @@ public class LoginPageTest extends TestBase{
 	public void usernameLength(String username, String password){
 	    loginPage.login(username, password);
 	    String errorText = loginPage.getErrorText();
-	    Assert.assertEquals(errorText, "Authentication failed.");
+	    AssertJUnit.assertEquals(errorText, "Authentication failed.");
 	}
 
 	/**
@@ -226,7 +238,7 @@ public class LoginPageTest extends TestBase{
 	public void usernameLength2(String username, String password){
 	    loginPage.login(username, password);
 	    String errorText = loginPage.getErrorText();
-	    Assert.assertEquals(errorText, "Invalid email address.");
+	    AssertJUnit.assertEquals(errorText, "Invalid email address.");
 	}
 
 
