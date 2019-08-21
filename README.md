@@ -5,7 +5,6 @@ Automation test framework covering all the test case for login page and forgot p
 * [Test approach](#test-approach)
 * [Concepts Included](#concepts-included)
 * [Requirements](#requirements)
-* [Usage](#usage)
 * [Setup](#setup)
 * [Screenshot](#screenshot)
 * [Demo](#demo)
@@ -61,13 +60,46 @@ In order to utilise this project you need to have the following installed locall
 * Firefox and geckodriver 
 
 
-## Usage
+# Setup
 
-The project is broken into separate modules for Login, Sign up and Forgot password page.
 
-To run all modules, navigate to `PathFactory` directory and:
+The project is broken into separate modules for Login, Sign up and Forgot password page
 
-* Run "testng.xml" As "TestNG Suite".
-* Run pom.xml using maven 
+* Clone the repository from git using git clone url command.
+* Open the project **PathFactoryAutomationTest** in Eclipse as a maven project using pom.xml
 
-`mvn clean install`
+**TestNG Suite**
+
+```
+* From Project Explorer, navigate through PathFactoryAutomationTest and run the file "testng.xml" as TestNG Suite;
+```
+or
+**Maven**
+
+```
+* From Project Explorer, right click and run as Maven clean
+* Proceed with maven install
+```
+ 
+**To run using Selenium Grid**
+
+```
+To run the hub:
+
+* move to the selenium-grid directory in the terminal
+* Type chmod u+x to access permission
+* Drag and drop the hubConf.bat file from the barfiles folder and free enter
+* Hub will start running 
+* Check http://localhost:4444/grid/console
+
+To run nodes
+
+* Open new terminal window
+* move to the selenium-grid directory in the terminal
+* Type chmod u+x to access permission
+* Drag and drop the the following .bat file you want to run test on from the barfiles folder and free enter
+* node will start running.
+* Check http://localhost:4444/grid/console
+
+Repeat step 2 for all the remaining nodes.
+```
