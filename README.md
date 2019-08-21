@@ -1,6 +1,14 @@
 # PathFactoryAutomationTest
 Automation test framework covering all the test case for login page and forgot password link.
 
+## Table of contents
+* [Test approach](#test-approach)
+* [Concepts Included](#concepts-included)
+* [Requirements](#requirements)
+* [Setup](#setup)
+* [Screenshot](#screenshot)
+* [Demo](#demo)
+
 ## Test approach
 
 The aim of this framework is to cover main functionalities such as : Already registered user, Forgot password and also create an account. All possible scripts for positive and negative tests are done.
