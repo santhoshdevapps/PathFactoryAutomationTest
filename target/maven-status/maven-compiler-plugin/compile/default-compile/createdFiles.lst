@@ -10,4 +10,3 @@ com/qa/utils/Constants.class
 com/qa/utils/ExcelUtils.class
 com/qa/testcases/ForgetPasswordPageTest.class
 com/qa/testcases/LoginPageTest.class
-com/qa/utils/ReadObject.class

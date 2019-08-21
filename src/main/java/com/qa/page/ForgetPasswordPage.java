@@ -16,7 +16,7 @@ import com.qa.utils.Log;
  * This class contains elements in Home Page.
  */
 public class ForgetPasswordPage {
-    By email = By.id("email");
+    By email = By.cssSelector("input[id='email']");
     By retrievePassword = By.cssSelector("#form_forgotpassword .button");
     By errorAlert = By.cssSelector(".alert.alert-danger ol li");
     By successAlert = By.cssSelector(".alert.alert-success");
@@ -82,30 +82,27 @@ public class ForgetPasswordPage {
      * Check all possible tests for the forget password process
      * testcaseName - pass all possible values of testcaseName from the excel sheets
      */
-     public void getForgetPassword(String testcaseName) throws IOException{
-    	 Log.info("Forget password method: " + testcaseName + " is invoked");
-         String username;
+	public void getForgetPassword(String testcaseName) throws IOException {
+		Log.info("Forget password method: " + testcaseName + " is invoked");
+		String username;
 
-         HashMap<String, String> credential = excelUtils.getdata(testcaseName,Constants.SHEETNAME_FORGET);
-         username = credential.entrySet().iterator().next().getKey();                
-         retrievePassword(username);
+		HashMap<String, String> credential = excelUtils.getdata(testcaseName, Constants.SHEETNAME_FORGET);
+		username = credential.entrySet().iterator().next().getKey();
+		retrievePassword(username);
 
-     }
+	}
 
      /**
       * this method takes testcase name and return the username
       * testcaseName - pass all possible values of testcaseName from the excel sheets
       */
-      public String getUsername(String testcaseName) throws IOException{
-    	  Log.info("Returning the username");
-          String username;
+	public String getUsername(String testcaseName) throws IOException {
+		Log.info("Returning the username");
+		String username;
 
-          HashMap<String, String> credential = excelUtils.getdata(testcaseName,Constants.SHEETNAME_FORGET);
-          username = credential.entrySet().iterator().next().getKey();                
-          retrievePassword(username);
-
-          return username;
-      }
-    
+		HashMap<String, String> credential = excelUtils.getdata(testcaseName, Constants.SHEETNAME_FORGET);
+		username = credential.entrySet().iterator().next().getKey();
+		return username;
+	}
 
 }

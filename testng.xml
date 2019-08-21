@@ -2,56 +2,70 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestSuite" parallel="none">
 	<listeners>
-	       <listener class-name="com.qa.utils.TestListener"/>
-	  </listeners>
+		<listener class-name="com.qa.utils.TestListener" />
+	</listeners>
 	<test name="ChromeTest" preserve-order="true">
 		<parameter name="browser" value="chrome" />
+		<parameter name="port" value="5555" />
+		<classes>
+		<!-- use SignupPageTest to sign the new user -->
+<!-- 			<class name="com.qa.testcases.SignupPageTest" /> -->
+			<class name="com.qa.testcases.LoginPageTest" />
+			<class name="com.qa.testcases.ForgetPasswordPageTest" />
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<parameter name="port" value="5556" />
+		<classes>
+				<!-- use SignupPageTest to sign the new user -->	
+<!-- 			<class name="com.qa.testcases.SignupPageTest" /> -->
+			<class name="com.qa.testcases.LoginPageTest" />
+			<class name="com.qa.testcases.ForgetPasswordPageTest" />
+
+		</classes>
+	</test> 
+
+<!-- 	<test name="IETest">
+		<parameter name="browser" value="ie" />
+		<parameter name="port" value="5557" />
 		<classes>
 			<class name="com.qa.testcases.SignupPageTest" />
 			<class name="com.qa.testcases.LoginPageTest" />
 			<class name="com.qa.testcases.ForgetPasswordPageTest" />
 		</classes>
 	</test>
-	<!-- <test name="FirefoxTest">
-		<parameter name="browser" value="firefox" />
-		<classes>
-			<class name="com.qa.testcases.SignupPageTest" />
-			<class name="com.qa.testcases.LoginPageTest" />
-		</classes>
-	</test> -->
-
-	<!-- <test name="IETest">
-		<parameter name="browser" value="ie" />
-		<classes>
-			<class name="com.qa.testcases.SignupPageTest" />
-			<class name="com.qa.testcases.LoginPageTest" />
-		</classes>
-	</test>
 	<test name="EdgeTest">
 		<parameter name="browser" value="edge" />
+		<parameter name="port" value="5558" />
 		<classes>
 			<class name="com.qa.testcases.SignupPageTest" />
 			<class name="com.qa.testcases.LoginPageTest" />
+			<class name="com.qa.testcases.ForgetPasswordPageTest" />
 		</classes>
-	</test>
+	</test> 
 
 
 	<test name="MobileTest - ios">
 		<parameter name="browser" value="ios" />
+		<parameter name="port" value="5559" />
 		<classes>
 			<class name="com.qa.testcases.SignupPageTest" />
 			<class name="com.qa.testcases.LoginPageTest" />
+			<class name="com.qa.testcases.ForgetPasswordPageTest" />
 
 		</classes>
 	</test>
 
-	<test name="MobileTest - Android">
+ 	<test name="MobileTest - Android">
 		<parameter name="browser" value="Android" />
+		<parameter name="port" value="5560" />
 		<classes>
 			<class name="com.qa.testcases.SignupPageTest" />
 			<class name="com.qa.testcases.LoginPageTest" />
+			<class name="com.qa.testcases.ForgetPasswordPageTest" />
 
 		</classes>
-	</test> -->
-
+	</test>
+ -->
 </suite>

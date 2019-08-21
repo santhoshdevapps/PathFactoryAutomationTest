@@ -4,35 +4,17 @@
   <listeners>
     <listener class-name="com.qa.utils.TestListener"/>
   </listeners>
-  <test name="ChromeTest(failed)">
-    <parameter name="browser" value="chrome"/>
+  <test name="FirefoxTest(failed)">
+    <parameter name="port" value="5556"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.qa.testcases.LoginPageTest">
         <methods>
-          <include name="emptyUsername"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
           <include name="isEnterKeyAllowed"/>
-          <include name="isPasswordVisible"/>
-          <include name="invalidUsername"/>
-          <include name="validCredentials"/>
-          <include name="validateLoginPageTitle"/>
-          <include name="emptyCredentials"/>
-          <include name="emptyPassword"/>
-          <include name="tearDown"/>
-          <include name="unregisteredUsername"/>
-          <include name="invalidPassword"/>
-          <include name="logoImageTest"/>
         </methods>
       </class> <!-- com.qa.testcases.LoginPageTest -->
-      <class name="com.qa.testcases.ForgetPasswordPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="unregisteredUsername"/>
-          <include name="invalidUsername"/>
-          <include name="emptyUsername"/>
-        </methods>
-      </class> <!-- com.qa.testcases.ForgetPasswordPageTest -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

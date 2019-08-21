@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="156.615" tests="30" errors="0" skipped="26" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="350.051" tests="32" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/santhoshdamodharan/Documents/workspace/PathFactory/target/surefire/surefirebooter1069399406965444536.jar /Users/santhoshdamodharan/Documents/workspace/PathFactory/target/surefire 2019-08-20T00-50-45_693-jvmRun1 surefire3059708888921994518tmp surefire_0397361630178423977tmp"/>
+    <property name="sun.java.command" value="/Users/santhoshdamodharan/Documents/workspace/PathFactory/target/surefire/surefirebooter6959400671199389866.jar /Users/santhoshdamodharan/Documents/workspace/PathFactory/target/surefire 2019-08-21T03-36-49_552-jvmRun1 surefire4252273627336233472tmp surefire_03391916927856946324tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/santhoshdamodharan/Documents/workspace/PathFactory/target/test-classes:/Users/santhoshdamodharan/Documents/workspace/PathFactory/target/classes:/Users/santhoshdamodharan/.m2/repository/org/apache/poi/poi/4.0.0/poi-4.0.0.jar:/Users/santhoshdamodharan/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/poi/poi-ooxml/4.0.0/poi-ooxml-4.0.0.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.0.0/poi-ooxml-schemas-4.0.0.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/xmlbeans/xmlbeans/3.0.1/xmlbeans-3.0.1.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/santhoshdamodharan/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/santhoshdamodharan/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/santhoshdamodharan/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/santhoshdamodharan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/santhoshdamodharan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/santhoshdamodharan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/santhoshdamodharan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/santhoshdamodharan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/santhoshdamodharan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/santhoshdamodharan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/santhoshdamodharan/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/santhoshdamodharan/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/santhoshdamodharan/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/santhoshdamodharan/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/santhoshdamodharan/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/santhoshdamodharan/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/santhoshdamodharan/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/santhoshdamodharan/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/santhoshdamodharan/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/santhoshdamodharan/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/maven/maven-plugin-api/3.5.4/maven-plugin-api-3.5.4.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/maven/maven-model/3.5.4/maven-model-3.5.4.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/maven/maven-artifact/3.5.4/maven-artifact-3.5.4.jar:/Users/santhoshdamodharan/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar:/Users/santhoshdamodharan/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/santhoshdamodharan/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/santhoshdamodharan/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/santhoshdamodharan/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar:/Users/santhoshdamodharan/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/santhoshdamodharan/.m2/repository/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar:/Users/santhoshdamodharan/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar:/Users/santhoshdamodharan/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/santhoshdamodharan/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/santhoshdamodharan/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/santhoshdamodharan/.m2/repository/io/appium/java-client/7.0.0/java-client-7.0.0.jar:/Users/santhoshdamodharan/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/santhoshdamodharan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/santhoshdamodharan/.m2/repository/cglib/cglib/3.2.8/cglib-3.2.8.jar:/Users/santhoshdamodharan/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/santhoshdamodharan/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/santhoshdamodharan/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/santhoshdamodharan/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/santhoshdamodharan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/santhoshdamodharan/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar:/Users/santhoshdamodharan/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/santhoshdamodharan/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/Users/santhoshdamodharan/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/Users/santhoshdamodharan/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/Users/santhoshdamodharan/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/Users/santhoshdamodharan/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/Users/santhoshdamodharan/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/Users/santhoshdamodharan/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/santhoshdamodharan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/santhoshdamodharan/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/santhoshdamodharan/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/santhoshdamodharan/Documents/workspace/PathFactory/target/surefire/surefirebooter1069399406965444536.jar"/>
+    <property name="surefire.real.class.path" value="/Users/santhoshdamodharan/Documents/workspace/PathFactory/target/surefire/surefirebooter6959400671199389866.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,123 +61,61 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="signUpScreenTestcase" classname="com.qa.testcases.SignupPageTest" time="12.312"/>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="67.496">
-    <failure message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-timeout
-  (Session info: chrome=76.0.3809.100)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'santhoshs-MacBook-Air.local', ip: 'fd00:c47:3da2:9f12:683c:cc45:6298:90ca', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: abaa6ed31ec86e23a80e0d7e40500229
-	at com.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:53)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 1875
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1566276673.808][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
-Aug 20, 2019 12:51:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <testcase name="validateLoginPageTitle" classname="com.qa.testcases.LoginPageTest" time="0.015"/>
+  <testcase name="validateLoginPageTitle" classname="com.qa.testcases.LoginPageTest" time="0.006"/>
+  <testcase name="redirectedToForgotPasswordPage" classname="com.qa.testcases.ForgetPasswordPageTest" time="0.942"/>
+  <testcase name="redirectedToForgotPasswordPage" classname="com.qa.testcases.ForgetPasswordPageTest" time="1.322"/>
+  <testcase name="logoImageTest" classname="com.qa.testcases.LoginPageTest" time="0.098"/>
+  <testcase name="logoImageTest" classname="com.qa.testcases.LoginPageTest" time="0.068"/>
+  <testcase name="unregisteredUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="1.915"/>
+  <testcase name="unregisteredUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="1.562"/>
+  <testcase name="validCredentials" classname="com.qa.testcases.LoginPageTest" time="1.682"/>
+  <testcase name="validCredentials" classname="com.qa.testcases.LoginPageTest" time="1.92"/>
+  <testcase name="invalidUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="1.131"/>
+  <testcase name="invalidUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="1.028"/>
+  <testcase name="emptyCredentials" classname="com.qa.testcases.LoginPageTest" time="1.492"/>
+  <testcase name="emptyCredentials" classname="com.qa.testcases.LoginPageTest" time="1.18"/>
+  <testcase name="validUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="1.226"/>
+  <testcase name="validUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="1.196"/>
+  <testcase name="emptyUsername" classname="com.qa.testcases.LoginPageTest" time="1.306"/>
+  <testcase name="emptyUsername" classname="com.qa.testcases.LoginPageTest" time="1.513"/>
+  <testcase name="emptyUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="1.25"/>
+  <testcase name="emptyUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="0.939"/>
+  <testcase name="emptyPassword" classname="com.qa.testcases.LoginPageTest" time="1.426"/>
+  <testcase name="emptyPassword" classname="com.qa.testcases.LoginPageTest" time="1.532"/>
+  <testcase name="unregisteredUsername" classname="com.qa.testcases.LoginPageTest" time="1.538"/>
+  <testcase name="unregisteredUsername" classname="com.qa.testcases.LoginPageTest" time="1.631"/>
+  <testcase name="invalidPassword" classname="com.qa.testcases.LoginPageTest" time="1.442"/>
+  <testcase name="invalidPassword" classname="com.qa.testcases.LoginPageTest" time="1.695"/>
+  <testcase name="invalidUsername" classname="com.qa.testcases.LoginPageTest" time="1.776"/>
+  <testcase name="invalidUsername" classname="com.qa.testcases.LoginPageTest" time="1.746"/>
+  <testcase name="isPasswordVisible" classname="com.qa.testcases.LoginPageTest" time="0.057"/>
+  <testcase name="isPasswordVisible" classname="com.qa.testcases.LoginPageTest" time="0.055"/>
+  <testcase name="isEnterKeyAllowed" classname="com.qa.testcases.LoginPageTest" time="1.689"/>
+  <testcase name="isEnterKeyAllowed" classname="com.qa.testcases.LoginPageTest" time="0.506">
+    <failure message="expected:&lt;http://automationpractice.com/index.php?controller=authentication&amp;back=my-account&gt; but was:&lt;http://automationpractice.com/index.php?controller=my-account&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<http://automationpractice.com/index.php?controller=authentication&back=my-account> but was:<http://automationpractice.com/index.php?controller=my-account>
+	at com.qa.testcases.LoginPageTest.isEnterKeyAllowed(LoginPageTest.java:193)
+]]></failure>
+    <system-err><![CDATA[*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1566373340552	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v4/w9n_pmld4_5gsc__cfk78qx80000gn/T/rust_mozprofile.z2dvrL7k07jN"
+1566373341204	Marionette	INFO	Enabled via --marionette
+2019-08-21 03:42:22.266 plugin-container[9809:540175] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa137, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1566373342788	Marionette	INFO	Listening on port 60122
+1566373342846	Marionette	WARN	TLS certificate errors will be ignored for this session
+1566373342924	Marionette	DEBUG	Register listener.js for window 2147483649
+Aug 21, 2019 3:42:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1566276727.078][SEVERE]: Timed out receiving message from renderer: 50.000
-[1566276727.080][SEVERE]: Timed out receiving message from renderer: -0.003
+1566373343286	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1566373343778	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1566373343779	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1566373345320	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1566373346477	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1566373346604	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1566373348098	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1566373348101	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1566373348511	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+1566373348519	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
 ]]></system-err>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="validateLoginPageTitle" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
-  </testcase>
-  <testcase name="redirectedToForgotPasswordPage" classname="com.qa.testcases.ForgetPasswordPageTest" time="0.82"/>
-  <testcase name="logoImageTest" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.ForgetPasswordPageTest" time="52.768">
-    <failure message="Cannot locate an element using xpath=//a[@class=&apos;login&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using xpath=//a[@class='login']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'santhoshs-MacBook-Air.local', ip: 'fd00:c47:3da2:9f12:683c:cc45:6298:90ca', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
-Driver info: driver.version: RemoteWebDriver
-	at com.qa.testcases.ForgetPasswordPageTest.setUp(ForgetPasswordPageTest.java:55)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 38059
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1566276737.251][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
-Aug 20, 2019 12:52:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1566276787.692][SEVERE]: Unable to receive message from renderer
-]]></system-err>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.ForgetPasswordPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="com.qa.testcases.ForgetPasswordPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="unregisteredUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="0">
-    <skipped message="Cannot locate an element using xpath=//a[@class=&apos;login&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
-  </testcase>
-  <testcase name="validCredentials" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
-  </testcase>
-  <testcase name="invalidUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="0">
-    <skipped message="Cannot locate an element using xpath=//a[@class=&apos;login&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
-  </testcase>
-  <testcase name="emptyCredentials" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
-  </testcase>
-  <testcase name="emptyUsername" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
-  </testcase>
-  <testcase name="emptyUsername" classname="com.qa.testcases.ForgetPasswordPageTest" time="0">
-    <skipped message="Cannot locate an element using xpath=//a[@class=&apos;login&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
-  </testcase>
-  <testcase name="emptyPassword" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
-  </testcase>
-  <testcase name="unregisteredUsername" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
-  </testcase>
-  <testcase name="invalidPassword" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
-  </testcase>
-  <testcase name="invalidUsername" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
-  </testcase>
-  <testcase name="isPasswordVisible" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
-  </testcase>
-  <testcase name="isEnterKeyAllowed" classname="com.qa.testcases.LoginPageTest" time="0">
-    <skipped message="timeout&#10;  (Session info: chrome=76.0.3809.100)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;santhoshs-MacBook-Air.local&apos;, ip: &apos;fd00:c47:3da2:9f12:683c:cc45:6298:90ca&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/v4/w9n_pmld4_5...}, goog:chromeOptions: {debuggerAddress: localhost:58917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: abaa6ed31ec86e23a80e0d7e40500229"/>
   </testcase>
 </testsuite>

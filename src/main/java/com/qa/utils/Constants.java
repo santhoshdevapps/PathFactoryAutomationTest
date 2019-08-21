@@ -10,14 +10,14 @@ public class Constants {
 	public static final int IMPLICIT_WAIT = 30;
 	public static final int PAGE_LOAD_TIMEOUT = 50;
 	public static final String URL = "http://automationpractice.com/index.php";
-	public final static String FILE_PATH = "/Users/santhoshdamodharan/Documents/workspace/PathFactory/src/main/java/com/qa/testdata/";
+	public final static String FILE_PATH = "/src/main/java/com/qa/testdata/";
 	public final static String FILE_NAME = "testData.xlsx";
 	public static final String SHEETNAME = "signup";
 	public static final String SHEETNAME_LOGIN = "login";
 	public static final String SHEETNAME_FORGET = "forget password";
 	public static final String PLATFORM_ANDROID ="Android";
 	public static final String PLATFORM_IOS ="iOS";
-	public static final String APPIUM_URL ="http://ttp://192.168.0.25:5556/wd/hub";
+	public static final String APPIUM_URL ="http://192.168.0.25:5556/wd/hub";
 	public static final String DATE_FORMAT_TYPE = "dd-MMM-yyyy-hh.mm";
 	public static final String IMAGE_FORMAT_TYPE = ".png";
 	public static final String USER_DIRECTORY = "user.dir";

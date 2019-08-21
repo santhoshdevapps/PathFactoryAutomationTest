@@ -84,7 +84,7 @@ public class ExcelUtils {
             } else {
                 Cell.setCellValue(result);
             }
-            FileOutputStream fileOut = new FileOutputStream(Constants.FILE_PATH + Constants.FILE_NAME);
+            FileOutputStream fileOut = new FileOutputStream(System.getProperty(Constants.USER_DIRECTORY)+Constants.FILE_PATH + Constants.FILE_NAME);
             ExcelWBook.write(fileOut);
             fileOut.flush();
             fileOut.close();
@@ -104,7 +104,7 @@ public class ExcelUtils {
     	
 		Log.info(testcaseName + " is invoked");
         String testcase;
-        XSSFSheet excelWSheet = setExcel(Constants.FILE_PATH + Constants.FILE_NAME, sheetname);
+        XSSFSheet excelWSheet = setExcel(System.getProperty(Constants.USER_DIRECTORY)+Constants.FILE_PATH + Constants.FILE_NAME, sheetname);
         int rowCount = excelWSheet.getLastRowNum() - excelWSheet.getFirstRowNum();
         HashMap<String, String> credential = new HashMap<String, String>();
         for (int i = 1; i <= rowCount; i++) {

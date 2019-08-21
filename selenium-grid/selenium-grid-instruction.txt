@@ -1,0 +1,17 @@
+1. To run the hub :
+
+—— move to the selenium-grid directory in the terminal
+—— Type chmod u+x to access permission
+—— Drag and drop the hubConf.bat file from the barfiles folder and free enter
+—— Hub will start running 
+—— Check http://localhost:4444/grid/console
+2. To run nodes :
+—— Open new terminal window
+—— move to the selenium-grid directory in the terminal
+—— Type chmod u+x to access permission
+—— Drag and drop the the following .bat file you want to run test on from the barfiles folder and free enter
+—— node will start running.
+—— Check http://localhost:4444/grid/console
+
+Repeat step 2 for all the remaining nodes.
+

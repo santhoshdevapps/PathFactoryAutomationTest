@@ -37,14 +37,14 @@ public class SignupPageTest extends TestBase {
 	String registeredEmail = null;
 	String password = null;
 
+	@Parameters({"browser","port"})
 	@BeforeMethod
-	@Parameters({ "browser" }) // , "deviceName", "osVersion", "port"
-	public void setUp(String browser) throws Exception {
+	public void setUp(String browser, String port) throws Exception{
 		DOMConfigurator.configure("log4j.xml");
 		Log.startTestCase("New Test Case Started");
 		// ,String deviceName, String osVersion, String port
 		// initialization(browser, deviceName, osVersion, port);
-		initialization(browser);
+		initialization(browser,port);
 		this.driver = getDriver();
 		this.wait = getWait();
 		loginPage = new LoginPage(driver, wait);

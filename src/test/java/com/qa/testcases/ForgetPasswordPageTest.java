@@ -41,12 +41,12 @@ public class ForgetPasswordPageTest extends TestBase{
 	WebDriver driver;
 	WebDriverWait wait;
 		
-	@Parameters({"browser"})
+	@Parameters({"browser","port"})
 	@BeforeMethod
-	public void setUp(String browser) throws Exception{
+	public void setUp(String browser, String port) throws Exception{
 		DOMConfigurator.configure("log4j.xml");
 		Log.startTestCase("New Test Case Started");
-		initialization(browser);
+		initialization(browser,port);
 		this.driver = getDriver();
 		this.wait = getWait();	
 		homePage = new HomePage(driver, wait);
@@ -98,7 +98,7 @@ public class ForgetPasswordPageTest extends TestBase{
 	*  valid username
 	 * @throws IOException 
 	*/
-	@Test(priority=4,enabled=false)
+	@Test(priority=4)
 	public void validUsername() throws IOException{
 		String testcaseName = new Throwable().getStackTrace()[0].getMethodName(); 
 		forgotPasswordPage.getForgetPassword(testcaseName);
