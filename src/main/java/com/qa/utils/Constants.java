@@ -5,8 +5,8 @@ public class Constants {
 	public static final String DRIVER_FIREFOX = "webdriver.gecko.driver";
 	public static final String DRIVER_EDGE = "webdriver.edge.driver";
 	public static final String DRIVER_LAUNCHER_PATH_CHROME = "/src/main/java/com/qa/resource/chromedriver";
-	public static final String DRIVER_LAUNCHER_PATH_FIREFOX = "/Users/santhoshdamodharan/Documents/workspace/PathFactory/src/main/java/com/qa/resource/geckodriver";
-	public static final String DRIVER_LAUNCHER_PATH_EDGE = "/Users/santhoshdamodharan/Documents/workspace/PathFactory/src/main/java/com/qa/resource/msedgedriver";
+	public static final String DRIVER_LAUNCHER_PATH_FIREFOX = "/src/main/java/com/qa/resource/geckodriver";
+	public static final String DRIVER_LAUNCHER_PATH_EDGE = "/src/main/java/com/qa/resource/msedgedriver";
 	public static final int IMPLICIT_WAIT = 30;
 	public static final int PAGE_LOAD_TIMEOUT = 50;
 	public static final String URL = "http://automationpractice.com/index.php";
@@ -17,7 +17,7 @@ public class Constants {
 	public static final String SHEETNAME_FORGET = "forget password";
 	public static final String PLATFORM_ANDROID ="Android";
 	public static final String PLATFORM_IOS ="iOS";
-	public static final String APPIUM_URL ="http://0.0.0.0:4723/wd/hub";
+	public static final String APPIUM_URL ="http://ttp://192.168.0.25:5556/wd/hub";
 	public static final String DATE_FORMAT_TYPE = "dd-MMM-yyyy-hh.mm";
 	public static final String IMAGE_FORMAT_TYPE = ".png";
 	public static final String USER_DIRECTORY = "user.dir";
