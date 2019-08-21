@@ -6,7 +6,7 @@ Automation test framework covering all the test case for login page and forgot p
 * [Concepts Included](#concepts-included)
 * [Requirements](#requirements)
 * [Setup](#setup)
-* [Screenshot](#screenshot)   
+* [Screenshot](#screenshot)       
 * [Demo](#demo)
 
 ## Test approach
