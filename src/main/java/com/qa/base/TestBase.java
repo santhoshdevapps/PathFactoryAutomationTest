@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -32,8 +33,9 @@ public class TestBase {
 		 //,String deviceName, String osVersion, String port
 		if (browser.equalsIgnoreCase("chrome")) {
 			// create chrome instance
+			ChromeOptions options = new ChromeOptions();
 			System.setProperty(Constants.DRIVER_CHROME, System.getProperty("user.dir")+Constants.DRIVER_LAUNCHER_PATH_CHROME);
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
 			Log.info("Chrome driver is created");
 		}
 		// Check if parameter passed as 'firefox'
